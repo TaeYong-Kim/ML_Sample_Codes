@@ -1,5 +1,6 @@
 import tensorflow as tf
 
+#When we knew Input data
 '''
 x_train = [1,2,3]
 y_train = [1,2,3]
@@ -22,6 +23,7 @@ for step in range(2001):
         print(step, '\t', sess.run(cost), '\t', sess.run(W), '\t', sess.run(b))
 '''
 
+#Get random input (use placeholder)
 x = tf.placeholder(tf.float32, shape = [None])
 y = tf.placeholder(tf.float32, shape = [None])
 
