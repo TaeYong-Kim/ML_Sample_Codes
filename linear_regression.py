@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-#When we knew Input data
+#When we knew Input data 
 '''
 x_train = [1,2,3]
 y_train = [1,2,3]
